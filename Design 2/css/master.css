@@ -1203,3 +1203,8 @@ header nav .form i{
         left: 20px;
     }
 }
+@media (max-width:363px){
+    .subscribe .container input[type="sumbit"]{
+        font-size: 82%;
+    }
+}
