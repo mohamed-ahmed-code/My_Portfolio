@@ -1198,3 +1198,8 @@ header nav .form i{
         position: static;
     }
 }
+@media (max-width:450px){
+    .contact h2{
+        left: 20px;
+    }
+}
