@@ -670,7 +670,7 @@ span{
 
 @media (max-width:895px){
     #menu-icon{
-        display: block;
+        display: none;
     }
 
     .navbar{
