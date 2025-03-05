@@ -731,7 +731,8 @@ span{
     }
 }
 @media (max-width:767px){
-    header nav a{
+    .header nav a{
         display: none;
     }
 }
+
