@@ -1,0 +1,491 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start Main */
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgb(248, 26, 92);
+    transition: 0.1s ease;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+    font-family: "Rubik", sans-serif;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700px;
+    border-radius: 60px;
+    font-family: "Rubik", sans-serif;
+}
+
+.main{
+    background-image: url(./images/Leonardo_Phoenix_10_A_vibrant_stilllife_composition_of_assorte_3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: rgb(248, 26, 92);
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid rgb(248, 26, 92);
+}
+
+/* Start Main */
+/* Start About */
+
+.about{
+    background-image: url(./images/abut.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(248, 26, 92);
+    display: inline-block;
+}
+
+.mbtn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.mbtn2:hover{
+    background-color: white;
+    color: rgb(248, 26, 92);
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid rgb(248, 26, 92);
+}
+
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.about p:nth-child(2){
+    color: gray;
+    font-size: 18px;
+}
+/* End About */
+
+/* Start Welcome */
+.welcome{
+    background: rgb(248, 26, 92);
+    
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome i{
+    font-size: 45px;
+    color: rgb(248, 26, 92);
+}
+
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+/* End Welcome */
+/* Start Product */
+
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.product p:nth-child(2){
+    color: gray;
+    font-size: 18px;
+}
+
+#botton{
+    height: 40px;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 20px;
+}
+
+#botton:hover{
+    background-color: white;
+    color: rgb(248, 26, 92);
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid rgb(248, 26, 92);
+}
+
+.star{
+    color: orange;
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+
+.mbtn1{
+    height: 40px;
+    width: 45%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right: 35px;
+}
+
+.mbtn1:hover{
+    background-color: white;
+    color: rgb(248, 26, 92);
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid rgb(248, 26, 92);
+}
+
+.discount{
+    background-color: rgb(248, 26, 92);
+    color: white;
+}
+
+.discount span{
+    font-weight: bold;
+}
+
+.offer{
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(248, 26, 92);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right: 35px;
+}
+
+.offer:hover{
+    background-color: rgb(248, 26, 92);
+    color: white;
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid white;
+}
+
+.line3{
+    background-color: rgb(248, 26, 92);
+    height: 6px;
+    width: 30%;
+    display: inline-block;
+}
+
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2){
+    color: gray;
+    font-size: 18px;
+}
+
+.store i{
+    font-size: 45px;
+}
+
+.store .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: -2px;
+    margin-bottom: 7px;
+}
+
+.store .card:hover{
+    background-color: rgb(248, 26, 92);
+    color: white;
+}
+
+.store .card:hover .per1{
+    color: white;
+}
+
+.contact{
+    background-image: url(./images/contact.jpg);
+    /* background-color: rgb(248, 26, 92); */
+    background-size: cover;
+    width: 100%;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact p{
+    color: white;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#line4{
+    background-color: white;
+    height: 6px;
+    width: 30%;
+    display: inline-block;
+}
+
+#last-p{
+    margin-top: 15px;
+}
+
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+.cbtn{
+    height: 40px;
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(248, 26, 92);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: 65px;
+}
+
+.cbtn:hover{
+    background-color: rgb(248, 26, 92);
+    color: white;
+    transition: 0.5s ease;
+    outline: none;
+    border: 1px solid white;
+}
+
+.footer{
+    background-color: white;
+}
+
+.s1, .s2, .s3, .s4{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer .s1 i,
+.footer .s2 i,
+.footer .s3 i,
+.footer .s4 i{
+    border: 1px solid rgb(248, 26, 92);
+    font-size: 40px;
+    padding: 3px;
+}
+
+.footer p{
+    color: rgb(248, 26, 92);
+}
+
+.footer .s1 i:hover{
+    color: rgb(248, 26, 92);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.footer .s2 i:hover{
+    color: blue;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.footer .s3 i:hover{
+    color: #1984d6;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.footer .s4 i:hover{
+    color: #1984d6;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 428px){
+    .row2{
+        margin-left: -35px;
+    }
+
+    .row1{
+        margin-left: 1px;
+    }
+
+    #row{
+        margin-left: -38px;
+    }
+
+    .about{
+        height: 71vh;
+    }
+
+    #img{
+        margin-top: -130px;
+    }
+
+    #text{
+        margin-top: -140px;
+    }
+
+    .mbtn1{
+        margin-right: 5px;
+    }
+
+    .offer{
+        margin-left: 35px;
+    }
+}
